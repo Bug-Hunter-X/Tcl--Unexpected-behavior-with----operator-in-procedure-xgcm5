@@ -1,0 +1,3 @@
+# Tcl Bug: Incorrect Use of == Operator
+This example demonstrates an uncommon but easily-made error in Tcl when comparing strings using the `==` operator within a procedure.
+The `==` operator performs a strict string comparison, which can lead to unexpected results if not handled carefully. In the provided `badproc.tcl` example, the procedure fails to correctly compare strings when they contain leading or trailing whitespace.
